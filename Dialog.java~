@@ -1,14 +1,12 @@
-package block;
-
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.OutputStream;
 
-public class Dialog {
+public class Dialog{
 	public static void main(String[] args){
 		System.out.print("2,"+"3,");
-		int numbers = 1000;
+		int numbers = 1000000;
 		int line = 10;
 		int count = 0;
 		int C = 0;
@@ -35,7 +33,7 @@ public class Dialog {
 				C += 1;
 			}
 		}
-		System.out.println("\n"+"各行数量");
+		System.out.println("\n"+"prime numbers:");
 		for (int i = 0;i < num.length;i++){
 			if (num[i] != 0){
 				System.out.print(num[i]+",");
